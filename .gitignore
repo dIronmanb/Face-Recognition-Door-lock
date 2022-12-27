@@ -1,0 +1,19 @@
+*.yaml
+*.pt
+*.pth
+*.yaml
+*.png
+*.json
+*.jpg
+*.mp4
+*.pyc
+*.xml
+
+##### Directory Not Included #####
+
+yolo_face_test/
+yolov7/
+
+#### Etc ####
+
+using_Yolov7.py

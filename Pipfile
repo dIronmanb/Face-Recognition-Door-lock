@@ -1,0 +1,39 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyyaml = ">=5.3.1"
+tensorboard = ">=2.4.1"
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5"
+opencv-python = ">=4.1.1"
+pillow = ">=7.1.2"
+requests = ">=2.23.0"
+scipy = ">=1.4.1"
+tqdm = ">=4.41.0"
+protobuf = "<4.21.3"
+pandas = ">=1.1.4"
+seaborn = ">=0.11.0"
+ipython = "*"
+psutil = "*"
+thop = "*"
+face-recognition-models = "*"
+click = "*"
+cmake = "*"
+dlib = "*"
+face-recognition = "*"
+numba = "*"
+sklearn = "*"
+torchvision = "*"
+torchaudio = "*"
+pyserial = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = true
